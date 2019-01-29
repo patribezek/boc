@@ -1,8 +1,8 @@
 
 <footer class="footer py-3 bg-dark position-relative">
 	<div class="container">
-		<p class="akronim text-center">Sea Of Grid</p>
-		<span class="akronim">SoG </span><span class="year">Sea of Grid</span> 
+		
+		<span class="akronim">BoC </span><span class="year">Bit of Chance</span> 
 		<div class="d-inline fmenu">
 			<a href="aboutUs.php" class="mx-2">About Us</a>
 			<a href="privacy.php" class="mx-2">Privacy Policy</a>

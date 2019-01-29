@@ -43,7 +43,7 @@ require_once('controller.php');
  
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container">
-      <a class="navbar-brand akronim bigger-font" href="index.php"> Bit of chance</a>
+      <a class="navbar-brand  " href="index.php"> Bit of chance</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" aria-expanded="false" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

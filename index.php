@@ -36,7 +36,7 @@ require_once('controller.php');
 <div class="container text-center pt-5">
   <h1 class="akronim pt-4 ">Bit of chance</h1>
 
-  <p class="disappear">Register with a valid E-mail to participate. Buy Chances and Click everywere in the grid. You can win up to 100 BITS!</p>
+  <p class="disappear">Buy Chances and Click everywere in the grid. You can win up to 100 BITS!</p>
   <button id="signIn" class="btn btn-warning px-5 mb-3 disappear" data-toggle="modal" data-target="#modalLogin">Buy chances!</button>
 
   <div id="signedIn" class="d-none">      

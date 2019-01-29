@@ -20,9 +20,9 @@ a:hover {
 
 
 
-.navbar-brand.akronim {
+.navbar-brand {
   color: #ffff10;
-padding: 0;
+  padding: 0;
 }
 
 .text-plain {
@@ -57,7 +57,7 @@ padding: 0;
 
 .bg {
 
-  
+
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -67,32 +67,25 @@ padding: 0;
   height: 65px;
   display: inline-block; 
   cursor: pointer;
-  background-color: #000;
+
   border: 1px solid #ffff10;
   box-sizing: border-box;
 
-     text-decoration: none;
+  text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .bg:hover {
- background-color: ##b3993a;
 
-  border: 1px solid #ffff10;
+  background-color: #b3993a;
+ border: 1px solid #ffff10;
 
-   -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
-  animation: neon3 1.5s ease-in-out infinite alternate;
+ -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+ -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+ animation: neon3 1.5s ease-in-out infinite alternate;
 }
-
-
-
-
-
-
-
 
 .dropdown-menu {
   background-color: #343a40;
@@ -151,9 +144,9 @@ footer span {
 }
 
 .fmenu { 
-    position: absolute;
-    right: 10%;
-    bottom: 10px;
+  position: absolute;
+  right: 10%;
+  bottom: 10px;
 
 }
 
