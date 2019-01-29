@@ -1,27 +1,27 @@
 body {
  background-color: #000;
  font-family: 'KoHo', sans-serif;
- color: #ffff10;
+ color: #ffc107;
  scroll-behavior: smooth;
 }
 
 ::selection {
-  background: #218838;
+  background: #ffc107;
 }
 
 a,
 .card-header .btn-link {
-  color: #ffff10;
+  color: #ffc107;
 }
 
 a:hover {
-  color: #ffff10;
+  color: #ffc107;
 }
 
 
 
 .navbar-brand {
-  color: #ffff10;
+  color: #ffc107;
   padding: 0;
 }
 
@@ -68,7 +68,7 @@ a:hover {
   display: inline-block; 
   cursor: pointer;
 
-  border: 1px solid #ffff10;
+  border: 1px solid #ffc107;
   box-sizing: border-box;
 
   text-decoration: none;
@@ -80,7 +80,7 @@ a:hover {
 .bg:hover {
 
   background-color: #b3993a;
- border: 1px solid #ffff10;
+ border: 1px solid #ffc107;
 
  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
@@ -96,7 +96,7 @@ a:hover {
 
 .card-header {
   background-color: #bdfdcc;
-  border-bottom: 1px solid #ffff10;
+  border-bottom: 1px solid #ffc107;
 }
 
 .dropdown-item {  
@@ -130,7 +130,7 @@ footer span {
 
 /* Popup adblock */
 .unblock {
-  background-color: #f3f3f3;
+  background-color: #000000e6;
   text-align: center;
   width: 100%;
   height: 100%;
@@ -139,6 +139,7 @@ footer span {
   z-index: 10000;
   line-height: 3;
   font-size: 3em;
+  font-weight: bold;
   overflow: hidden;
 
 }
