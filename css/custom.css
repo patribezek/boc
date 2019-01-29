@@ -55,13 +55,17 @@ a:hover {
   }
 }
 
+.modal {
+  color: #484848;
+}
+
+
 .bg {
-
-
-  background-size: 100%;
+  background-image: url(../img/bitcoin.jpg);
   background-position: bottom;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
+
   margin: 2px;
   width: 65px;
   height: 65px;
@@ -79,12 +83,14 @@ a:hover {
 
 .bg:hover {
 
-  background-color: #b3993a;
- border: 1px solid #ffc107;
 
- -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
- -moz-animation: neon3 1.5s ease-in-out infinite alternate;
- animation: neon3 1.5s ease-in-out infinite alternate;
+  background-color: #b3993a;
+  border: 1px solid #ffc107;
+
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+
 }
 
 .dropdown-menu {
@@ -95,7 +101,7 @@ a:hover {
 }
 
 .card-header {
-  background-color: #bdfdcc;
+  background-color: #eeeeee;
   border-bottom: 1px solid #ffc107;
 }
 

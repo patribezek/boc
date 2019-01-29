@@ -51,7 +51,7 @@ require_once('controller.php');
    </div>
 
    <!-- GRID -->
-   <div class="col col-lg-8 text-center">
+   <div class="col col-lg-8 text-center bg-image">
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-backdrop="static">
