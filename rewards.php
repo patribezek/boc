@@ -43,7 +43,7 @@ require_once('controller.php');
                 <li>100 Bits</li>
                 <li>1 000 Bits</li>
                 <li>10 000 Bits</li>
-                <li><b>100 000 Bits!*</b></li>
+                <li><b>100 000 Bits! *</b></li>
               </ul> 
 <p>* If you win this prize your chances will be automatically reset to 0 (zero).</p>
             </div>
