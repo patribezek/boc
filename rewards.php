@@ -6,7 +6,7 @@ require_once('controller.php');
 
 <div class="container pt-5">
   <h2 class="text-center akronim pt-4">Rewards</h2>
-  <h4 class="text-center mb-4">All chances are accumulative with extra chances you can win!</h4>
+  <h4 class="text-center mb-4 gray-text">All chances are accumulative with extra chances you can win!</h4>
   <div class="row justify-content-md-center">
 
     <div class="col col-lg-3  d-none d-sm-table-cell">
@@ -18,7 +18,7 @@ require_once('controller.php');
           <div class="card-header p-0" id="headingOne">
             <h5 class="mb-0 card-title">
               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Seeds Rewards
+                Crypto Rewards
               </button>
             </h5>
           </div>
@@ -26,13 +26,24 @@ require_once('controller.php');
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
 
-              <p>You can win differents packs of seeds:</p>
+              <p>You can win Satoshis:</p>
               <ul>
-                <li>1 seed</li>
-                <li>2 seeds</li>
-                <li>3 seeds</li>
-                <li>5 seeds</li>
-                <li>10 seeds</li>
+                <li>1 satoshi</li>
+                <li>5 satoshis</li>
+                <li>10 satoshis</li>
+                <li>30 satoshis</li>
+                <li>50 satoshis</li>
+              </ul> 
+
+              <p>Or Bits:</p>
+              <ul>
+                <li>1 Bit</li>
+                <li>5 Bits</li>
+                <li>10 Bits</li>
+                <li>100 Bits</li>
+                <li>1 000 Bits</li>
+                <li>10 000 Bits</li>
+                <li><b>100 000 Bits!</b></li>
               </ul> 
 
             </div>
@@ -58,7 +69,7 @@ require_once('controller.php');
           </div>
         </div>
       </div>
-      <div class="card">
+<!--       <div class="card">
         <div class="card-header p-0" id="headingThree">
           <h5 class="mb-0">
             <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -80,7 +91,7 @@ require_once('controller.php');
             <b>Up to 5 chances per day!</b>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
   </div>
@@ -97,9 +108,7 @@ require_once('controller.php');
     <!-- publi -->
   </div>
 
-  <?php 
-  require_once('banks.php');
-  ?>
+
 </div> <!-- row end -->
 
 </div> <!-- container end -->

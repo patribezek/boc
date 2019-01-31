@@ -40,7 +40,7 @@ require_once('controller.php');
 
  <header>
 
- 
+
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container">
       <a class="navbar-brand  " href="index.php"> Bit of chance</a>
@@ -59,14 +59,11 @@ require_once('controller.php');
           <li class="nav-item">
             <a class="nav-link" href="rewards.php">Rewards</a>
           </li>
-          <li class="nav-item">
+         <!--  <li class="nav-item">
             <a class="nav-link" href="faq.php">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled no-hover" href="#">News</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+          </li> -->
+         <!--  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle disabled" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="aboutUs.php">Us</a>
               <a class="dropdown-item" href="privacy.php">Privacy Policy</a>
@@ -74,18 +71,10 @@ require_once('controller.php');
               <a class="dropdown-item" href="disclaimer.php">Disclaimer</a>
               <a class="dropdown-item" href="contact.php">Contact</a>
             </div>
-          </li>
+          </li> -->
 
           <li class="nav-item">
-            <button id="signIn" class="btn btn-warning px-3" data-toggle="modal" data-target="#modalLogin">Sign in</button>
-          </li>
-          <li class="nav-item dropdown usr-info d-none">
-            <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php  $user; ?></a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item no-hover" href=""><?php echo $usr_email; ?></a>
-              <a class="dropdown-item no-hover" href="">Chances: <?php echo $chances; ?></a>
-              <a class="dropdown-item" href="">Log out</a>
-            </div>
+            <button id="signIn" class="btn btn-warning px-3" data-toggle="modal" data-target="#modalLogin">Buy chances</button>
           </li>
         </ul>
       </div>
@@ -98,22 +87,50 @@ require_once('controller.php');
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <p class="modal-title" id="signInModal">Sign in with your E-mail</p>
+          <p class="modal-title" id="signInModal">Buy chances</p>
 
-          <p> </p>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
+     
         <div class="modal-body input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1">@</span>
-          </div>
-          <input type="text" class="form-control" placeholder="e-mail" aria-label="e-mail" aria-describedby="basic-addon1">
+          
+        
+            <div class="input-group-prepend">
+
+              <span class="input-group-text" id="basic-addon1"><i class="fab fa-bitcoin"></i></span>
+            </div>
+            <input type="text" class="form-control" placeholder="wallet adress" aria-label="e-mail" aria-describedby="basic-addon1">
+          
 
         </div>
+
+        <div class="row">
+          <div class="col-md-4 my-1 ml-3">
+         
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>Choose </option>
+            <option value="1">1 Chance</option>
+            <option value="2">3 Chances</option>
+            <option value="3">5 chances</option>
+          </select>
+        </div>
+        <div class="col-md-6 my-1">
+         
+         <p>Each chance costs 10 Satoshis </p>
+        </div>
+        </div>
+
+        <div class="col-auto mt-3 ml-1">
+
+          <p><b>You will spend <span>$sumChances</span> satoshis</b></p>
+        </div>
+
+
+
         <div class="modal-footer">
-          <button type="button" class="btn btn-success" data-dismiss="modal">Sign in</button>
+          <button type="button" class="btn btn-warning px-5" data-dismiss="modal">Buy!</button>
         </div>
       </div>
     </div>

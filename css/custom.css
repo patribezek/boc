@@ -6,23 +6,13 @@ body {
 }
 
 ::selection {
-  background: #ffc107;
+  background: #ff00eb;
 }
 
 a,
+a:hover,
 .card-header .btn-link {
   color: #ffc107;
-}
-
-a:hover {
-  color: #ffc107;
-}
-
-
-
-.navbar-brand {
-  color: #ffc107;
-  padding: 0;
 }
 
 .text-plain {
@@ -34,8 +24,8 @@ a:hover {
   color: #000;
 }
 
-.no-hover {
-  cursor: initial;
+.gray-text {
+  color: #eee;
 }
 
 .fit-width {
@@ -59,6 +49,12 @@ a:hover {
   color: #484848;
 }
 
+.navbar {
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate;
+}
+
 
 .bg {
   background-image: url(../img/bitcoin.jpg);
@@ -71,7 +67,6 @@ a:hover {
   height: 65px;
   display: inline-block; 
   cursor: pointer;
-
   border: 1px solid #ffc107;
   box-sizing: border-box;
 
@@ -82,8 +77,6 @@ a:hover {
 }
 
 .bg:hover {
-
-
   background-color: #b3993a;
   border: 1px solid #ffc107;
 
@@ -93,6 +86,17 @@ a:hover {
 
 }
 
+.bg:visited,
+.bg:active,
+.bg:focus { /******************* SET VIA JS  *****/
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+  border: none;
+  cursor: default;
+  opacity: 0.2;
+}
+
 .dropdown-menu {
   background-color: #343a40;
   border: 0;
@@ -100,9 +104,9 @@ a:hover {
   color: #fff;
 }
 
-.card-header {
-  background-color: #eeeeee;
-  border-bottom: 1px solid #ffc107;
+.accordion,
+.card-header .btn-link {
+  color: #343a40;
 }
 
 .dropdown-item {  
@@ -155,6 +159,12 @@ footer span {
   right: 10%;
   bottom: 10px;
 
+}
+
+.blocked {
+  cursor: default;
+  animation: none;
+  opacity: 0.2;
 }
 
 /*  Responsive */

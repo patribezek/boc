@@ -17,11 +17,11 @@ require_once('navbar.php');
       <h3>Legal Disclaimer</h3>
       <p>
 
-        By using from our website www.seaofgrid.com you accept our <a href="termsConditions.php">Terms & Conditions</a>, <a href="privacy.php">Privacy Policy</a> and <u>Legal Disclaimer</u>.
+        By using from our website  you accept our <a href="termsConditions.php">Terms & Conditions</a>, <a href="privacy.php">Privacy Policy</a> and <u>Legal Disclaimer</u>.
 
 
 
-       <h3>Our Products</h3>
+       <h3>Our Product</h3>
        Sea of Grid rewards with cannabis seeds as a collectable adult genetic preservation souvenir. <br />
        Due to the nature of some of our products you must be over 18 years of age to view and/or win from seaofgrid.com.  By winning from this site you warrant that you are over 18 years of age. <br />
        <br />
@@ -33,7 +33,7 @@ require_once('navbar.php');
        <h3>Drug Policy</h3>
        seaofgrid.com does not encourage the use, supply or production of illegal drugs or controlled substances in any way. <br />
        <br />
-       All information on our website www.seaofgrid.com is provided for educational purposes only. <br />
+       All information on our website  is provided for educational purposes only. <br />
        <br />
        We do encourage discussion and research into drug policy, favouring those with a strong harm minimization agenda, and reduced emphasis on criminal justice systems. <br />
        <br />

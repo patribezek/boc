@@ -20,7 +20,7 @@ $random = rand ( 0 , 10 );
 
 switch ($random) {
 	case 0:
-	$result = "<p >Sorry, try again :-(</p>";
+	$result = "<p >You earned 10 bits! </p>";
 	$chances --;
 	break;
 	case 1:
@@ -43,19 +43,19 @@ switch ($random) {
 	$chances += 10;
 	break;
 	case 5:
-	$result = "<p><b>Yeah! You earned 1 seed!</b></p>";
+	$result = "<p><b>You earned 5 satoshi! </b></p>";
 	$chances = 0;
 	break;
 	case 6:
-	$result = "<p><b>Yeah! You earned 3 seeds!</b></p>";
+	$result = "<p><b>Yeah! You earned 100 satoshi! </b></p>";
 	$chances = 0;
 	break;
 	case 7:
-	$result = "<p><b>Yeah! You earned 5 seeds!</b></p>";
+	$result = "<p><b>Yeah! You earned 500 satoshi!</b></p>";
 	$chances = 0;
 	break;
 	default:
-	$result = "<p>Sorry, try again :-(</p>";
+	$result = "<p>You earned 1 satoshi! </p>";
 	$chances --;
 }
 

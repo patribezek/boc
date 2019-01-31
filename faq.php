@@ -167,7 +167,7 @@ require_once('controller.php');
 
     </div>
     <div class="text-center my-4">
-      <a href="contact.php" class="btn btn-success btn-block" >Your question is not here? Drop us a line! </a>
+      <a href="contact.php" class="btn btn-warning btn-block" >Your question is not here? Drop us a line! </a>
     </div>
 
   </div>

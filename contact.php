@@ -32,7 +32,7 @@ require_once('controller.php');
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 
-        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="submit" class="btn btn-warning">Submit</button>
       </form>
 
     </div>
@@ -42,7 +42,7 @@ require_once('controller.php');
         Before you contact us please be aware that we have limited resources for email support therefore. <br />
         <br />
         Please read through our <a href="termsConditions.php">terms</a> and <a href="faq.php">FAQ</a> before sending us an email. We will not reply to emails asking questions that have already been answered there. <br /> <br />
-        We can only reply to emails written clearly in English, Spanish, German or Portuguese. <br /><br />
+        We can only reply to emails written clearly in English or Spanish. <br /><br />
         We will NOT reply to emails that are abusive or threatening. <br />
         We will endeavour to reply to emails within 72 hours. <br />
         <br />

@@ -4,10 +4,10 @@
 		
 		<span class="akronim">BoC </span><span class="year">Bit of Chance</span> 
 		<div class="d-inline fmenu">
-			<a href="aboutUs.php" class="mx-2">About Us</a>
+			<!-- <a href="aboutUs.php" class="mx-2">About Us</a>
 			<a href="privacy.php" class="mx-2">Privacy Policy</a>
 			<a href="termsConditions.php" class="mx2">Terms and Conditions</a>
-			<a href="disclaimer.php" class="mx-2">Disclaimer</a>
+			<a href="disclaimer.php" class="mx-2">Disclaimer</a> -->
 			<a href="contact.php" class="mx-2">Contact</a>
 			<a href="#" class="mx-2"><!-- Go to Top  --><i class="fas fa-arrow-circle-up"></i></a>
 			
