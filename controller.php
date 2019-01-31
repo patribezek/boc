@@ -15,7 +15,7 @@ switch ($random) {
 	case 0:
 	$result = "<p>Good Luck! You earned +1 chance!</p>";
 	$chances --;
-	$chances = ++;
+	$chances ++;
 	break;
 	case 1:
 	$result = "<p>Good Luck! You earned +3 chance!</p>";
